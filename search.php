@@ -1,0 +1,36 @@
+<?php include 'files/header.php' ?>
+
+<div id="header">
+	<div class="container">
+        
+        <div class="row">
+            <div class="col-md-5">
+			</div>
+        	<div id="introTxt" class="col-md-7 col-xs-12">
+            	<h1>Introducing Soma Black</h1>
+                <p><a href="#">LEARN MORE</a></p>
+            </div>
+        </div> <!--  end of row -->
+    
+    </div> 
+</div>
+<!--  end of container -->
+
+
+
+<div id="products">
+	<div class="container">
+    	<div class="row text-center">
+        	<!------------------ col1 --------------------------->
+            <?php search();?>
+            
+            <!--------------------------------------------------->
+		</div><!-- end of row -->
+		
+		
+    </div><!-- end of container -->
+</div>
+
+
+
+<?php include 'files/footer.php' ?>
